@@ -1,0 +1,38 @@
+h1 {color: #003366; font-size:22pt; text-align:left}
+h2 {color: #003366; font-size:18pt; text-align:left}
+h3 {color: #003366; font-size:14pt; text-align:left}
+ul {list-style-image: url(edu.gif);}
+ol li ul li ul {list-style: disc outside none}
+ul li ul {list-style: circle outside none}
+
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+
+.div-global {
+    height: 100%;
+    width: 99%;
+    border-width: 3px;
+    border-color: darkgrey;
+    border-style: dashed;
+}
+
+.div-row {
+    width: 100%;
+    display: flex;
+}
+
+.div-lv1-left {
+    width: 340px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: inline-end;
+}
+
+.div-lv1-right {
+    width: 950px;
+}
+
