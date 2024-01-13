@@ -14,7 +14,7 @@ hr {
 
 .div-global {
     height: 100%;
-    width: 99%;
+    width: 100%;
     border-width: 3px;
     border-color: darkgrey;
     border-style: dashed;
@@ -36,23 +36,46 @@ hr {
     width: 950px;
 }
 
-a {
+a.myweb {
+    font-family: cursive; 
+    font-size: 24px; 
+    color: blue; 
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+a.text {
     font-family: cursive; 
     font-size: 20px; 
     color: blue; 
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
-a:hover {
-    cursor: pointer;
+a.text:hover {
+    text-decoration: wavy;
+    text-shadow: #414c4f 10px 6px 6px;
+}
+
+a.text:link {
+    color: blue;
+}
+
+a.text:visited {
+    color: blueviolet;
 }
 
 .img-icon {
     height: 32px; width: 32px;
+    cursor: pointer;
 }
 
-.img-icon:hover {
+img.img-icon:hover {
     transform: rotate(1200deg);
-    opacity: 0.9
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    box-shadow:6px 6px 6px gray;
+    position: relative;
 };
 
